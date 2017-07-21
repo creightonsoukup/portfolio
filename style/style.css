@@ -50,7 +50,67 @@ table {
 body {
   background-color: black;
   color: white;
+  font-family: Campton Light;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
 }
+
+.landing-page {
+  min-height: 100vh;
+}
+
+.homepage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.homepage-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.logo {
+  max-width: 100px;
+  height: auto;
+  align-self: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+li {
+  font-size: 1rem;
+  padding: 5px;
+}
+
+a {
+  font-size: 1rem;
+  padding: 5px;
+}
+
+a:hover {
+  font-size: 1.25rem;
+}
+
+.social {
+  flex-direction: row;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+.social i {
+  padding: 10px;
+}
+
 
 .c-animation {
   min-width: 100vw;
@@ -60,6 +120,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 
 .spin {
   -webkit-animation:spin 2s linear 2;
