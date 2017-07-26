@@ -34,6 +34,8 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^6.4.1",
     "babel-preset-stage-1": "^6.1.18",
     "body-parser": "^1.17.2",
     "cookie-parser": "^1.4.3",
