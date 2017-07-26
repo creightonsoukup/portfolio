@@ -96,6 +96,10 @@ li {
 a {
   font-size: 1rem;
   padding: 5px;
+	text-decoration: none;
+	color: white;
+	transition: font-size 1s ease;
+	-webkit-transition: font-size 1s ease;
 }
 
 a:hover {
@@ -107,11 +111,15 @@ a:hover {
   font-size: 2rem;
   margin: 0 auto;
 }
-.social i {
-  padding: 10px;
+
+.fa {
+	font-size: 2rem;
+	padding: 10px;
+	transition: font-size 1s ease;
+	-webkit-transition: font-size 1s ease;
 }
 
-i:hover {
+.fa:hover {
   font-size: 2.2rem;
 }
 
