@@ -16,7 +16,7 @@ module.exports = {
       }
     },
     {
-      test: /\.(jpg|png|svg)$/,
+      test: /\.(jpg|png|svg|pdf)$/,
       loader: 'file-loader',
       options: {
       name: '[path][name].[hash].[ext]',

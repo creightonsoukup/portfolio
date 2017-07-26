@@ -12,15 +12,15 @@ const Homepage = (props) => {
       </ul>
       <h3 className='homepage-section'>{'coming soon'}</h3>
       <div className='homepage-section'>
-        <a>contact</a>
-        <a>download resume</a>
+        <a href="mailto:hello@creightonsoukup.com">contact</a>
+        <a href={require('../assets/Creighton_Soukup_Resume.pdf')} download>download resume</a>
       </div>
       <div className="homepage-section social">
-        <i className="fa fa-github-circle"></i>
-        <i className="fa fa-linkedin"></i>
-        <i className="fa fa-instagram-fa"></i>
-        <i className="fa fa-pinterest"></i>
-        <i className="fa fa-medium"></i>
+        <a href='https://github.com/creightonsoukup'><i className="fa fa-github-circle"></i></a>
+        <a href='https://www.linkedin.com/in/creightonsoukup'><i className="fa fa-linkedin"></i></a>
+        <a href='https://www.instagram.com/creightonsoukup/'><i className="fa fa-instagram-fa"></i></a>
+        <a href='https://www.pinterest.com/creightonsoukup/'><i className="fa fa-pinterest"></i></a>
+        <a href='https://medium.com/@creightonsoukup'><i className="fa fa-medium"></i></a>
       </div>
     </div>
   )
